@@ -1,6 +1,7 @@
 import Banner from '@/components/banner'
 import Header from '@/components/header'
 import Head from 'next/head'
+import Card from '../../components/cards/index';
 
 
 export default function Homepage() {
@@ -15,7 +16,7 @@ export default function Homepage() {
       <Header />
       <Banner />
 
-      {/* aqui você vai chamar os components que vai criar para pagina principal  */}
+      <Card />
     </>
   )
 }
